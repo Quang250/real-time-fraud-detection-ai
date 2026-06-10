@@ -1,0 +1,41 @@
+{
+    "transaction_id": "explain_fraud_tx_1866",
+    "fraud_probability": 0.9999818801879883,
+    "prediction": 1,
+    "prediction_label": "Fraud",
+    "threshold": 0.73,
+    "latency_ms": 71.58770004753023,
+    "model_version": "xgboost_v1_threshold_0.73",
+    "top_explanations": [
+        {
+            "feature": "V14",
+            "feature_value": -9.15095100562097,
+            "shap_value": 4.767580032348633,
+            "direction": "pushes toward Fraud"
+        },
+        {
+            "feature": "V10",
+            "feature_value": -4.06309810827338,
+            "shap_value": 1.5622466802597046,
+            "direction": "pushes toward Fraud"
+        },
+        {
+            "feature": "V4",
+            "feature_value": 6.00941477810058,
+            "shap_value": 1.2308003902435303,
+            "direction": "pushes toward Fraud"
+        },
+        {
+            "feature": "V12",
+            "feature_value": -6.15136219091534,
+            "shap_value": 1.184169888496399,
+            "direction": "pushes toward Fraud"
+        },
+        {
+            "feature": "V8",
+            "feature_value": 0.338526987742346,
+            "shap_value": -0.7146382927894592,
+            "direction": "pushes toward Non-fraud"
+        }
+    ]
+}

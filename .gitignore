@@ -1,0 +1,50 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Test/cache output
+.pytest_cache/
+
+# Environment and secrets
+.env
+*.env
+.venv/
+venv/
+env/
+.conda/
+conda-meta/
+
+# Kaggle credentials
+.kaggle/
+kaggle.json
+
+# Data - keep only sample data and documentation
+data/raw/
+data/processed/
+*.csv
+!reports/**/*.csv
+!data/sample/*.csv
+reports/week6_batch_prediction_test.csv
+
+# Model artifacts
+models/*.pkl
+models/*.joblib
+
+# Runtime logs
+*.log
+reports/api_audit_log.jsonl
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.vscode/
+
+# Streamlit secrets
+.streamlit/secrets.toml

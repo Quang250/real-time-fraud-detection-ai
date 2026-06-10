@@ -1,0 +1,8 @@
+{
+    "total_requests": 246,
+    "fraud_predictions": 16,
+    "non_fraud_predictions": 230,
+    "mean_latency_ms": 42.257207316134455,
+    "p95_latency_ms": 79.9420999828726,
+    "latest_transaction_id": "pytest_batch_tx_002"
+}

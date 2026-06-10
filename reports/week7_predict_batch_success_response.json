@@ -1,0 +1,32 @@
+{
+    "total_transactions": 3,
+    "results": [
+        {
+            "transaction_id": "batch_tx_0",
+            "fraud_probability": 8.364269888261333e-06,
+            "prediction": 0,
+            "prediction_label": "Non-fraud",
+            "threshold": 0.73,
+            "latency_ms": 21.827799966558814,
+            "model_version": "xgboost_v1_threshold_0.73"
+        },
+        {
+            "transaction_id": "batch_tx_1",
+            "fraud_probability": 5.91893649470876e-06,
+            "prediction": 0,
+            "prediction_label": "Non-fraud",
+            "threshold": 0.73,
+            "latency_ms": 26.358500006608665,
+            "model_version": "xgboost_v1_threshold_0.73"
+        },
+        {
+            "transaction_id": "batch_tx_2",
+            "fraud_probability": 2.3303005036723334e-06,
+            "prediction": 0,
+            "prediction_label": "Non-fraud",
+            "threshold": 0.73,
+            "latency_ms": 27.07479998935014,
+            "model_version": "xgboost_v1_threshold_0.73"
+        }
+    ]
+}

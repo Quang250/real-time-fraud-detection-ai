@@ -1,0 +1,4 @@
+case,actual,predicted,fraud_probability,purpose,main_interpretation
+True Positive,1,1,0.9999818801879883,Explain why the model correctly detected fraud,"The model correctly detected a fraudulent transaction with strong fraud-supporting signals from PCA features such as V14, V10, V4, and V12."
+False Negative,1,0,0.5761077404022217,Analyze why the model missed a fraudulent transaction,"The transaction was fraudulent, but its fraud probability remained below the selected threshold of 0.73 due to mixed feature contributions."
+False Positive,0,1,0.9991968274116516,Analyze why a normal transaction was incorrectly flagged,"The transaction was normal but showed fraud-like patterns in several important PCA features, leading the model to flag it incorrectly."

@@ -1,0 +1,2 @@
+fraud_probability,prediction,prediction_label,threshold
+8.36427e-06,0,Non-fraud,0.73

@@ -1,0 +1,50 @@
+{
+    "total_transactions": 5,
+    "results": [
+        {
+            "transaction_id": "batch_tx_0",
+            "fraud_probability": 8.364269888261333e-06,
+            "prediction": 0,
+            "prediction_label": "Non-fraud",
+            "threshold": 0.73,
+            "latency_ms": 156.80699999211356,
+            "model_version": "xgboost_v1_threshold_0.73"
+        },
+        {
+            "transaction_id": "batch_tx_1",
+            "fraud_probability": 5.91893649470876e-06,
+            "prediction": 0,
+            "prediction_label": "Non-fraud",
+            "threshold": 0.73,
+            "latency_ms": 32.216800027526915,
+            "model_version": "xgboost_v1_threshold_0.73"
+        },
+        {
+            "transaction_id": "batch_tx_2",
+            "fraud_probability": 2.3303005036723334e-06,
+            "prediction": 0,
+            "prediction_label": "Non-fraud",
+            "threshold": 0.73,
+            "latency_ms": 30.570500006433576,
+            "model_version": "xgboost_v1_threshold_0.73"
+        },
+        {
+            "transaction_id": "batch_tx_3",
+            "fraud_probability": 2.959528319479432e-05,
+            "prediction": 0,
+            "prediction_label": "Non-fraud",
+            "threshold": 0.73,
+            "latency_ms": 33.542800054419786,
+            "model_version": "xgboost_v1_threshold_0.73"
+        },
+        {
+            "transaction_id": "batch_tx_4",
+            "fraud_probability": 0.0005778429913334548,
+            "prediction": 0,
+            "prediction_label": "Non-fraud",
+            "threshold": 0.73,
+            "latency_ms": 30.47050000168383,
+            "model_version": "xgboost_v1_threshold_0.73"
+        }
+    ]
+}

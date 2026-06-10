@@ -1,0 +1,5 @@
+Aspect,SHAP,LIME
+Explanation level,Global and local,Mainly local
+Suitability for XGBoost,Highly suitable for tree-based models,Suitable as a complementary method
+Interpretation logic,Feature contribution to model output,Local surrogate explanation around one instance
+Role in this project,Primary explanation method,Supporting explanation method

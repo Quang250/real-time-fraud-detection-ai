@@ -1,0 +1,9 @@
+{
+    "timestamp": "2026-06-08T13:35:08.051523+00:00",
+    "transaction_id": "sample_tx_001",
+    "model_version": "xgboost_v1_threshold_0.73",
+    "fraud_probability": 8.364269888261333e-06,
+    "prediction": 0,
+    "prediction_label": "Non-fraud",
+    "threshold": 0.73
+}

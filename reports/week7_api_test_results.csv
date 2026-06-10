@@ -1,0 +1,8 @@
+test_name,endpoint,expected_status,result
+test_health_check,/health,200,passed
+test_model_info,/model-info,200,passed
+test_single_prediction,/predict,200,passed
+test_predict_explain,/predict-explain,200,passed
+test_batch_prediction,/predict-batch,200,passed
+test_audit_summary,/audit-summary,200,passed
+test_missing_feature_error,/predict,422,passed

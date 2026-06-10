@@ -1,0 +1,9 @@
+{
+    "transaction_id": "demo_tx_001",
+    "fraud_probability": 8.364269888261333e-06,
+    "prediction": 0,
+    "prediction_label": "Non-fraud",
+    "threshold": 0.73,
+    "latency_ms": 79.9420999828726,
+    "model_version": "xgboost_v1_threshold_0.73"
+}

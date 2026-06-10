@@ -1,0 +1,11 @@
+file,status,role,notes
+src/model_loader.py,active,artifact_loader,"Loads final_fraud_model.pkl, best_threshold.pkl, and feature_list.pkl from models/."
+src/inference_pipeline.py,active,inference_pipeline,"Validates and aligns model-ready features, then returns fraud probability and prediction."
+src/batch_inference.py,utility,batch_inference,"Runs CSV batch inference using FraudInferencePipeline."
+src/validate_artifacts.py,utility,artifact_validation,"Checks that saved model artifacts can be loaded correctly."
+src/data_preprocessing.py,placeholder,data_preprocessing,"Not used by Week 6. Data preparation remains in notebooks for now."
+src/feature_engineering.py,placeholder,feature_engineering,"Not used by Week 6. The current model expects model-ready features."
+src/train_model.py,placeholder,training,"Not used by Week 6. Final training is documented in notebooks/03_modeling.ipynb."
+src/evaluate_model.py,placeholder,evaluation,"Not used by Week 6. Evaluation outputs are generated in notebooks/03_modeling.ipynb."
+src/explainability.py,placeholder,xai,"Not used by Week 6. SHAP/LIME outputs are generated in notebooks/04_explainability.ipynb."
+src/inference_api.py,placeholder,api,"Not implemented yet. Planned for Week 7 FastAPI work."

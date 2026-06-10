@@ -1,0 +1,22 @@
+evidence_name,file_path,purpose,status
+FastAPI Swagger UI,reports/screenshots/fastapi_swagger_ui.png,Show available API endpoints,Done
+Health endpoint,reports/screenshots/health_response.png,Show API and model loaded,Done
+Audit summary endpoint,reports/week8_audit_summary_response.json,Show monitoring summary from audit log,Done
+Predict success response,reports/week7_predict_success_response.json,Show single prediction success,Done
+Predict explain response,reports/week8_predict_explain_response.json,Show API-level SHAP explanations,Done
+Batch predict success response,reports/week7_predict_batch_success_response.json,Show batch prediction success,Done
+API latency summary,reports/week7_api_latency_summary.csv,Show near real-time API latency,Done
+Threshold simulation,reports/week8_threshold_simulation.csv,Show risk trade-off by decision threshold,Done
+Cost-based threshold simulation,reports/week8_cost_based_threshold_simulation.csv,Show business cost trade-off by threshold,Done
+Stream simulation,reports/week7_api_stream_simulation.csv,Show transaction stream inference,Done
+SHAP summary plot,reports/explainability/shap_summary_plot.png,Show global explanation,Done
+Audit log,reports/api_audit_log.jsonl,Show traceability,Done
+Model Card,reports/model_card.md,Document model input output metrics and limitations,Done
+Data Card,reports/data_card.md,Document dataset structure imbalance and limitations,Done
+README,README.md,Show how to reproduce and run the project,Done
+Streamlit dashboard overview,reports/screenshots/dashboard_overview.png,Show final dashboard overview,Done
+Streamlit single prediction,reports/screenshots/dashboard_single_prediction.png,Show single prediction demo,Done
+Streamlit batch prediction,reports/screenshots/dashboard_batch_prediction.png,Show batch prediction demo,Done
+Streamlit stream simulation,reports/screenshots/dashboard_stream_simulation.png,Show mixed stream simulation,Done
+Streamlit explainability,reports/screenshots/dashboard_explainability.png,Show SHAP and LIME evidence,Done
+Streamlit audit log,reports/screenshots/dashboard_audit_log.png,Show audit monitoring evidence,Done
